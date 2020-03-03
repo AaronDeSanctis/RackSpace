@@ -1,0 +1,237 @@
+﻿<Application x:Class="RackSpaceWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RackSpaceWPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--<Style TargetType="{x:Type Grid}">
+            <Setter Property="Cursor" Value="Hand"></Setter>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Cursor" Value="IBeam"></Setter>
+        </Style>-->
+        <Style x:Key="headerText" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <!--<Setter Property="FontFamily" Value=""></Setter>-->
+        </Style>
+        <!--<Style x:Key="3D" TargetType="{x:Type LinearGradientBrush}">
+            <Setter Property="GradientStops" V ></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            --><!--<Setter Property="FontFamily" Value=""></Setter>--><!--
+        </Style>
+        <LinearGradientBrush x:Key="3DBorder"
+                         StartPoint="0.499,0" EndPoint="0.501,1">
+            <GradientStop Color="#FFF" Offset="0" />
+            <GradientStop Color="#DDD" Offset="0.01" />
+            <GradientStop Color="#AAA" Offset="0.99" />
+            <GradientStop Color="#888" Offset="1" />
+        </LinearGradientBrush>-->
+        <Style x:Key="BorderlessButton" TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Name="border" Background="{TemplateBinding Background}">
+                            <ContentPresenter Name="content" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                      Margin="{TemplateBinding Padding}"
+                                      RecognizesAccessKey="True"
+                                      SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="1.1" ScaleY="1.1" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX=".95" ScaleY=".95" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BorderlessNoteButton" TargetType="{x:Type Button}">
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Name="border" Background="{TemplateBinding Background}">
+                            <ContentPresenter Name="content" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                      Margin="{TemplateBinding Padding}"
+                                      RecognizesAccessKey="True"
+                                      SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="1.1" ScaleY="1.1" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="content" Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX=".95" ScaleY=".95" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="buttonWrapper_black" TargetType="{x:Type Border}">
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="CornerRadius" Value="5"></Setter>
+            <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="BorderBrush" Value="DimGray"></Setter>
+            <Setter Property="BorderThickness" Value="2" />
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="Transparent" />
+                    <Setter Property="Background" Value="DimGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="buttonImageWrapper_black" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        </Style>
+        
+        <!-- Header text style -->
+        <Style x:Key="button_Black" TargetType="{x:Type Button}">
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="FontFamily" Value="Gilroy"></Setter>
+            <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Margin" Value="10"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="Transparent" />
+                    <Setter Property="Background" Value="Black" />
+                    <Setter Property="Foreground" Value="Black" />
+                </Trigger>
+            </Style.Triggers>
+
+        </Style>
+        <Style x:Key="buttonWrapper_white" TargetType="{x:Type Border}">
+            <Setter Property="CornerRadius" Value="3"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="DimGray"></Setter>
+            <Setter Property="BorderThickness" Value="5" />
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        </Style>
+        <Style x:Key="buttonImageWrapper_white" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="White"></Setter>
+        </Style>
+        <!-- Header text style -->
+        <Style x:Key="button_White" TargetType="{x:Type Button}">
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="FontFamily" Value="Gilroy"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="Foreground" Value="Black" />
+
+        </Style>
+        <Style x:Key="viewItem_TextBox" TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="#d7dee6"></Setter>
+            <Setter Property="Foreground" Value="#3790f2"></Setter>
+            <Setter Property="Margin" Value="10,0,10,0"></Setter>
+        </Style>
+        <Style x:Key="headerTextStyle">
+            <Setter Property="Label.VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Label.FontFamily" Value="Trebuchet MS"></Setter>
+            <Setter Property="Label.FontWeight" Value="Bold"></Setter>
+            <Setter Property="Label.FontSize" Value="18"></Setter>
+            <Setter Property="Label.Foreground" Value="White"></Setter>
+        </Style>
+
+        <!-- Label style -->
+        <Style x:Key="labelStyle" TargetType="{x:Type Label}">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="5,5,5,5" />
+            <Setter Property="BorderBrush" Value="#FF000000"/>
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+
+        <!-- DataGrid header style -->
+        <Style x:Key="columnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Height" Value="35" />
+            <Setter Property="Margin" Value="5,5,5,5" />
+            <Setter Property="Background" Value="#4E87D4" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+
+        <!-- List header style -->
+        <Style x:Key="listHeaderStyle" TargetType="{x:Type Border}">
+            <Setter Property="Height" Value="35" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Background" Value="#4E87D4" />
+        </Style>
+
+        <!-- List header text style -->
+        <Style x:Key="listHeaderTextStyle" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+
+        <!-- Button style -->
+        <Style x:Key="buttonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="125" />
+            <Setter Property="Height" Value="25" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="BorderBrush" Value="#FF000000"/>
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="FontSize" Value="22" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style x:Key="questionLabelStyle" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Application.Resources>
+</Application>

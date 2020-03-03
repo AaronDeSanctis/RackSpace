@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item>
+    <Id>0</Id>
+    <guid>634ac8c2-7368-40de-a095-47155521f30a</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113042_Film1.jpg</ImageUrl>
+    <ImageRotation>360</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>157e4bf7-b661-4b98-9c3e-717df0f7c904</guid>
+    <Name>Master Combi Book</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model>CMC Blank</Model>
+    <SerialNum>123-11234455-000</SerialNum>
+    <Volts>277/388</Volts>
+    <Phase>3PH</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_150041_Film1.jpg</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>7730d804-557d-4277-8d6a-7f87514afe50</guid>
+    <Name>Timmy 4</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>999-88888-000</SerialNum>
+    <Volts>10,000</Volts>
+    <Phase>3PH</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>360</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>71ec92c0-b898-4a00-b94b-83b1620fc7c3</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>95212e47-3fdb-473f-b050-8f39fc34534d</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>4d199c0b-471f-4370-b9d6-b3d07fb34c2b</guid>
+    <Name>Clean Unit</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>123-456789-009</SerialNum>
+    <Volts>208V</Volts>
+    <Phase>3PH</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113026_Film1.jpg</ImageUrl>
+    <ImageRotation>360</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>a08ae6cc-1480-4467-aef4-b82559c3cef2</guid>
+    <Name>Testing</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>3</RackId>
+    <Model>4</Model>
+    <SerialNum>2</SerialNum>
+    <Volts>1</Volts>
+    <Phase>5</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113020_Film1.jpg</ImageUrl>
+    <ImageRotation>0</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>73d09538-9ea1-4ff3-b212-c4d17be0d52d</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>2</SerialNum>
+    <Volts>3</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>46179a63-1e70-4063-b341-c6ee00c5603f</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>11927822-a66a-4063-9104-de55df3268d6</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>360</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>a60c4204-a44d-4901-b874-e25879fc29e9</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>375d2d2e-2705-4b37-b56e-e26ca7d2bf11</guid>
+    <Name>1</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>12</SerialNum>
+    <Volts>1</Volts>
+    <Phase>4</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>22e8b2da-e2d3-43a7-a911-ee7627aaa042</guid>
+    <Name>Cooked Cavity</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-1</RackId>
+    <Model />
+    <SerialNum>123-123456-000</SerialNum>
+    <Volts>208</Volts>
+    <Phase>3PH</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+  <Item>
+    <Id>0</Id>
+    <guid>ccb7c52d-b0f4-43bd-8228-ef58357dd9a9</guid>
+    <Name>A-A-Ron</Name>
+    <IsUnit>true</IsUnit>
+    <RackId>A-2</RackId>
+    <Model />
+    <SerialNum>1234567890</SerialNum>
+    <Volts>10,000</Volts>
+    <Phase>14 Phase</Phase>
+    <ImageUrl>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\Rac</ImageUrl>
+    <ImageRotation>90</ImageRotation>
+  </Item>
+</ArrayOfItem>

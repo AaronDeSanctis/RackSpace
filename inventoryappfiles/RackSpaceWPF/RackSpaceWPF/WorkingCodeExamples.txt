@@ -1,0 +1,6 @@
+﻿//Example code for adding null parameters -AD 1/7/2020
+
+                    //SqlParameter[] parameters = new SqlParameter[1];
+                    //SqlParameter planIndexParameter = new SqlParameter("@AgeIndex", SqlDbType.Int);
+                    //planIndexParameter.Value = (object)AgeItem.AgeIndex ?? DBNull.Value;
+                    //parameters[0] = planIndexParameter;

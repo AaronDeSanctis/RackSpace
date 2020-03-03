@@ -1,0 +1,44 @@
+﻿<Page x:Class="RackSpaceWPF.NoteTester"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RackSpaceWPF"
+        mc:Ignorable="d"
+        Title="NoteTester" d:DesignHeight="800" d:DesignWidth="1000" AutomationProperties.IsOffscreenBehavior="Onscreen" AutomationProperties.IsRequiredForForm="True">
+    <Grid Background="{DynamicResource WindowBackgroundBrush}">
+        <Grid.Resources>
+            <LinearGradientBrush x:Key="WindowBackgroundBrush">
+                <GradientStop Offset="0" Color="#2e2e2f "/>
+                <GradientStop Offset="1" Color="#5c5c5e"/>
+            </LinearGradientBrush>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="1" Margin="10" Style="{StaticResource BorderlessButton}" Click="Home_Click">Home</Button>
+        <ScrollViewer Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="4" Grid.RowSpan="6">
+            <StackPanel Name="NotePanel"  Margin="10" Background="Gray" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True"  CanVerticallyScroll="True">
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

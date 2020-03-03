@@ -1,0 +1,111 @@
+﻿<Page x:Class="RackSpaceWPF.CreateRack"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RackSpaceWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1000"
+      Title="CreateRack">
+
+    <Grid Margin="10,10,10,10">
+        <Grid.Background>
+            White
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Number of rows and their definitions in between grid.rowdefinitions -->
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border  BorderThickness="1,1,1,1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="#FFFFFFFF" Offset="0.567"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <!--<DockPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="10" Background="Blue">
+        </DockPanel>-->
+        <Button VerticalAlignment="Top" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0" Grid.RowSpan="2" Margin="10,10,10,10" Background="Transparent" BorderThickness="0" Name="homeButton" Click="HomeButton_Click" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="homeButton">
+                        <Image Source="Images/RSLogoFinal.png"></Image>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="homeButton" Property="Background" Value="Transparent"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="homeButton" Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button  Name="AddImageButton" Click="AddImageButton_Click" Grid.ColumnSpan="2" Grid.Row="2" Margin="10,10,10,10" Background="RoyalBlue" FontWeight="Bold">
+            Add an Image
+        </Button>
+        <Button  Click="RemoveImageButton_Click" Name="RemoveImageButton" Grid.ColumnSpan="2" Grid.Row="3" Margin="10,10,10,10" Background="RoyalBlue" FontWeight="Bold">
+            Remove Image
+        </Button>
+        <Button  Click="CreateNewRackButton_Click" Name="CreateNewRackButton" ToolTip="Customize Racks" Grid.ColumnSpan="2" Grid.Row="4" Margin="10,10,10,10" Background="RoyalBlue" FontWeight="Bold">
+            Save and Complete
+        </Button>
+        <StackPanel Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="5" Grid.RowSpan="7" Margin="40,10,40,40">
+                <Label Target="{Binding ElementName=RackImageBox}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_blue.png" />
+                        <AccessText Text="_Image:" />
+                    
+                </StackPanel>
+                    
+                </Label>
+
+            <Border BorderBrush="Black" BorderThickness="0"  Margin="30,10,30,10" Background="Snow" Height="353">
+                <Image Name="RackImageBox" RenderTransformOrigin=".5,.5" Margin="10,10,10,10" MouseRightButtonDown="RackImageBox_RightClick">
+                    <Image.RenderTransform>
+                        <RotateTransform x:Name="Rotate90"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Border>
+        </StackPanel>
+        
+            
+        
+        <StackPanel Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="5" Grid.RowSpan="6" Margin="40,10,40,40">
+            <Label Target="{Binding ElementName=IdTextBox}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_red.png" />
+                    <AccessText Text="_Rack Id:" />
+                </StackPanel>
+            </Label>
+            <TextBox Name="IdTextBox" />
+        </StackPanel>
+        <Image Source="Images/AltoShaamRectangle (Custom).jpg" Margin="0,30,0,0" Grid.Column="5" Grid.Row="8" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+    </Grid>
+</Page>

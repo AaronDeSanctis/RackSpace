@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rack>
+    <guid>96176485-3d04-414e-8adc-0e40375148e9</guid>
+    <Name>Squirell</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113718_Film1.jpg</Image>
+    <ImageRotation>0</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>853bb740-e3be-405c-8545-47536a410fe0</guid>
+    <Name>A-2</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113439_Film1.jpg</Image>
+    <ImageRotation>360</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>ddbac71b-60d4-4549-a4ba-558c138d1453</guid>
+    <Name>Trump Flag</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\Screenshot_2020-01-01-14-38-48.png</Image>
+    <ImageRotation>90</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>fe9f9cd0-bcd7-485b-bf8e-8e5d389b7b9d</guid>
+    <Name>A-4</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113026_Film1.jpg</Image>
+    <ImageRotation>0</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>5c7b488f-2fd2-4ed1-b668-c66ef1271898</guid>
+    <Name>F-12</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113042_Film1.jpg</Image>
+    <ImageRotation>0</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>29411f01-6b3e-4ca2-93e1-c886c21e5770</guid>
+    <Name>Marty McFly</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:/R&amp;D/Test_Lab/InventoryAppFiles/saddefaultimage.png</Image>
+    <ImageRotation>0</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>20024647-3a24-45d1-9b4b-cc9782ac32fb</guid>
+    <Name>Thingy</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:\R&amp;D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\UnitImages\20200102_113941_Film1.jpg</Image>
+    <ImageRotation>90</ImageRotation>
+    <Location />
+  </Rack>
+  <Rack>
+    <guid>0ef315e3-674c-4715-b542-dd67c304c478</guid>
+    <Name>A-1</Name>
+    <IsVacant>true</IsVacant>
+    <IsGroundOrCuldesac>false</IsGroundOrCuldesac>
+    <Image>I:/R&amp;D/Test_Lab/InventoryAppFiles/saddefaultimage.</Image>
+    <ImageRotation>0</ImageRotation>
+    <Location>Area 51</Location>
+  </Rack>
+</ArrayOfRack>

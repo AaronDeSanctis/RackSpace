@@ -1,0 +1,206 @@
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe.config
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.pdb
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.cache
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.lref
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.g.resources
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.Properties.Resources.resources
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.GenerateResource.cache
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.CoreCompileInputs.cache
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.exe
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.pdb
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_Content.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csprojAssemblyReference.cache
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.baml
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.g.cs
+C:\Users\aarond\source\repos\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.pdb
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_Content.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.cache
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.lref
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.g.resources
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.Properties.Resources.resources
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.GenerateResource.cache
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.CoreCompileInputs.cache
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.exe
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.pdb
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.baml
+D:\RackSpaceWPF\RackSpaceWPF\bin\Debug\dbRackSpaceWPF.mdf
+D:\RackSpaceWPF\RackSpaceWPF\bin\Debug\dbRackSpaceWPF_log.ldf
+D:\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe.config
+D:\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe
+D:\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.pdb
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csprojAssemblyReference.cache
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\ListColumnTester.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\SearchBarTester.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_Content.g.cs
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.cache
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.lref
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\ListColumnTester.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\SearchBarTester.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.baml
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.g.resources
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.Properties.Resources.resources
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.GenerateResource.cache
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.CoreCompileInputs.cache
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.exe
+D:\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.pdb
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\bin\Debug\dbRackSpaceWPF.mdf
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\bin\Debug\dbRackSpaceWPF_log.ldf
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe.config
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.pdb
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ListColumnTester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\SearchBarTester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_Content.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.cache
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF_MarkupCompile.lref
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\App.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\AdminWindow.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateItem.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CreateRack.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomizeRacks.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItem.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditItemNonUnit.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditMods.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\EditRack.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Home.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Layout.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ListColumnTester.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\LoginWindow.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\MainWindow.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RegisterWindow.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\SearchBarTester.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\SecretWindow.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ViewItem.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.g.resources
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.Properties.Resources.resources
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.GenerateResource.cache
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.exe
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.pdb
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Menu2Tester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\MenuTester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\Menu2Tester.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\MenuTester.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\bindingtester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\bindingtester.baml
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csprojAssemblyReference.cache
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ItemViewTester.g.cs
+C:\Users\Aaron DeSanctis\Desktop\RackSpaceWPF\RackSpaceWPF\obj\Debug\ItemViewTester.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceWPF.exe.config
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceDB.mdf
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\RackSpaceDB_log.ldf
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\Register.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\Register.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\LogIn.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\LogIn.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Microsoft.Office.Interop.Visio.WorkflowAuthoring.dll
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csproj.CopyComplete
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\UnitsAndItems.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\UnitsAndItems.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomDesigns.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\CustomDesigns.baml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\RackSpaceWPF.csprojAssemblyReference.cache
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Syncfusion.Licensing.dll
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Syncfusion.SfInput.WPF.dll
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Syncfusion.SfShared.WPF.dll
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Syncfusion.SfInput.WPF.xml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\bin\Debug\Syncfusion.SfShared.WPF.xml
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\NoteTester.g.cs
+I:\R&D\Test_Lab\InventoryAppFiles\RackSpaceWPF\RackSpaceWPF\obj\Debug\NoteTester.baml
