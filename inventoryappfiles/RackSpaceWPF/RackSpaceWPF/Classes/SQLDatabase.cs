@@ -34,8 +34,11 @@ namespace RackSpaceWPF.Classes
                 return new List<Item>();
             }
         }
+        //Alto-Shaam Connection String
+        //private static string ConnectionString = Properties.Settings.Default.Connection_String;
+        //General Testing Connection String
         private static string ConnectionString = Properties.Settings.Default.Connection_String;
-        
+
         //private async static void StartTest(object sender, RoutedEventArgs e)
         //{
         //    try
@@ -258,50 +261,78 @@ namespace RackSpaceWPF.Classes
         }
         public static DataTable PullItemData(string TableName)
         {
-            String query = "SELECT [Guid], [Name], [IsUnit], [RackId], [RackGuid], [Model], [SerialNum], [Volts], [Phase], [ImageUrl], [ImageRotation] FROM ItemTable;";
-            String connString = ConnectionString;
-            SqlConnection sqlConn = new SqlConnection(connString);
-            SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
-            DataTable itemTable = new DataTable(TableName);
-            sqlDataAdapter.Fill(itemTable);
-            return itemTable;
-           
+            try
+            {
+                String query = "SELECT [Guid], [Name], [IsUnit], [RackId], [RackGuid], [Model], [SerialNum], [Volts], [Phase], [ImageUrl], [ImageRotation] FROM ItemTable;";
+                String connString = ConnectionString;
+                SqlConnection sqlConn = new SqlConnection(connString);
+                SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
+                DataTable itemTable = new DataTable(TableName);
+                sqlDataAdapter.Fill(itemTable);
+                return itemTable;
+            }
+            catch
+            {
+                return new DataTable();
+            }
+
         }
         public static DataTable PullRackData(string TableName)
         {
-            String query = "SELECT [Guid], [Name], [IsVacant], [IsGroundOrCuldesac], [Image], [ImageRotation], [Location] FROM RackTable;";
-            String connString = ConnectionString;
-            SqlConnection sqlConn = new SqlConnection(connString);
-            SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
-            DataTable rackTable = new DataTable(TableName);
-            sqlDataAdapter.Fill(rackTable);
-            return rackTable;
+            try
+            {
+                String query = "SELECT [Guid], [Name], [IsVacant], [IsGroundOrCuldesac], [Image], [ImageRotation], [Location] FROM RackTable;";
+                String connString = ConnectionString;
+                SqlConnection sqlConn = new SqlConnection(connString);
+                SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
+                DataTable rackTable = new DataTable(TableName);
+                sqlDataAdapter.Fill(rackTable);
+                return rackTable;
+            }
+            catch
+            {
+                return new DataTable();
+            }
 
         }
         public static DataTable PullUserData(string TableName)
         {
-            String query = "SELECT [Guid], [Username], [Password] FROM UserTable;";
-            String connString = ConnectionString;
-            SqlConnection sqlConn = new SqlConnection(connString);
-            SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
-            DataTable userTable = new DataTable(TableName);
-            sqlDataAdapter.Fill(userTable);
-            return userTable;
+            try
+            {
+                String query = "SELECT [Guid], [Username], [Password] FROM UserTable;";
+                String connString = ConnectionString;
+                SqlConnection sqlConn = new SqlConnection(connString);
+                SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
+                DataTable userTable = new DataTable(TableName);
+                sqlDataAdapter.Fill(userTable);
+                return userTable;
+            }
+            catch
+            {
+                return new DataTable();
+            }
 
         }
         public static DataTable PullNoteData(string TableName)
         {
-            String query = "SELECT [Guid], [Text], [ItemType], [ItemGuid], [TimeStamp], [UserGuid], [IsSubNote], [SubNoteTargetGuid]  FROM UserTable;";
-            String connString = ConnectionString;
-            SqlConnection sqlConn = new SqlConnection(connString);
-            SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
-            DataTable noteTable = new DataTable(TableName);
-            sqlDataAdapter.Fill(noteTable);
-            return noteTable;
+            try
+            {
+                String query = "SELECT [Guid], [Text], [ItemType], [ItemGuid], [TimeStamp], [UserGuid], [IsSubNote], [SubNoteTargetGuid]  FROM UserTable;";
+                String connString = ConnectionString;
+                SqlConnection sqlConn = new SqlConnection(connString);
+                SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCmd);
+                DataTable noteTable = new DataTable(TableName);
+                sqlDataAdapter.Fill(noteTable);
+                return noteTable;
+            }
+            catch
+            {
+                return new DataTable();
+            }
 
         }
         public static async Task<int> ExecuteAsync(SqlConnection conn, SqlCommand cmd)      {
@@ -464,12 +495,13 @@ namespace RackSpaceWPF.Classes
         #endregion
         public static bool CreateItem(Item item)
         {
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["RackSpaceWPF.Properties.Settings.Connection_String"].ConnectionString))
+            //try
+            //{
+                using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
 
                     string sql = "INSERT INTO ItemTable VALUES (@Guid,@Name,@RackId,@RackGuid,@Model,@ImageUrl,@IsUnit,@Phase,@Volts,@SerialNum,@ImageRotation)";
+
 
                     using (SqlCommand cmd = new SqlCommand(sql, connection))
                     {
@@ -491,11 +523,11 @@ namespace RackSpaceWPF.Classes
                     Close_DB_Connection();
                 }
                 return true;
-            }
-            catch
-            {
-                return false;
-            }         
+            //}
+            //catch
+            //{
+            //    return false;
+            //}         
         }
         public static bool CreateItemAsync(Item item)
         {
@@ -594,8 +626,8 @@ namespace RackSpaceWPF.Classes
         }
         public static bool CreateUser(User user)
         {
-            //try
-            //{
+            try
+            {
                 using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["RackSpaceWPF.Properties.Settings.Connection_String"].ConnectionString))
                 {
 
@@ -613,17 +645,17 @@ namespace RackSpaceWPF.Classes
                     Close_DB_Connection();
                 }
                 return true;
-            //}
-            //catch
-            //{
-            //    return false;
-            //}
+            }
+            catch
+            {
+                return false;
+            }
         }
         public static bool CreateUserAsync(User user)
         {
-            //try
-            //{
-            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["RackSpaceWPF.Properties.Settings.Connection_String"].ConnectionString))
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["RackSpaceWPF.Properties.Settings.Connection_String"].ConnectionString))
             {
 
                 string sql = "INSERT INTO UserTable VALUES (@Guid,@Username,@Password)";
@@ -640,11 +672,11 @@ namespace RackSpaceWPF.Classes
                 Close_DB_Connection();
             }
             return true;
-            //}
-            //catch
-            //{
-            //    return false;
-            //}
+            }
+            catch
+            {
+                return false;
+            }
         }
         //note.guid = Guid.Parse(row["Guid"].ToString());
         //note.Text = row["Text"].ToString();

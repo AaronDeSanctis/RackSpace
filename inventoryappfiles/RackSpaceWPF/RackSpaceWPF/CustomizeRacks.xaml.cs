@@ -347,5 +347,10 @@ namespace RackSpaceWPF
         {
 
         }
+        private void NoteTester_Click(object sender, RoutedEventArgs e)
+        {
+            NoteTester note = new NoteTester();
+            this.NavigationService.Navigate(note);
+        }
     }
 }

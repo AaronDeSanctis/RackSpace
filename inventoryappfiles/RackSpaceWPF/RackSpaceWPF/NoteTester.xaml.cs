@@ -246,5 +246,45 @@ namespace RackSpaceWPF
             Home home = new Home();
             this.NavigationService.Navigate(home);
         }
+        private void UnitsAndItems_Click(object sender, RoutedEventArgs e)
+        {
+            UnitsAndItems unitsAndItems = new UnitsAndItems();
+            this.NavigationService.Navigate(unitsAndItems);
+
+        }
+        private void CustomizeRacks_Click(object sender, RoutedEventArgs e)
+        {
+            CustomizeRacks customizeRacks = new CustomizeRacks();
+            this.NavigationService.Navigate(customizeRacks);
+        }
+        private void NoteTester_Click(object sender, RoutedEventArgs e)
+        {
+            NoteTester note = new NoteTester();
+            this.NavigationService.Navigate(note);
+        }
+        private void AltoShaamButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow AltoShaamSite = new NavigationWindow();
+            AltoShaamSite.Source = new Uri("https://www.alto-shaam.com/en", UriKind.Absolute);
+            AltoShaamSite.ShowDialog();
+        }
+        private void AltoShaamBorder_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+        private void AltoShaamBorder_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+        private void LogIn_Click(object sender, RoutedEventArgs e)
+        {
+            LogIn logIn = new LogIn();
+            logIn.ShowDialog();
+        }
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            Register register = new Register();
+            register.ShowDialog();
+        }
     }
 }

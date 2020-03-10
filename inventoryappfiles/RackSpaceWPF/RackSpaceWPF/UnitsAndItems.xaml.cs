@@ -67,7 +67,15 @@ namespace RackSpaceWPF
             if (item != null)
             {
                 SelectedItemBox.Visibility = Visibility.Visible;
-                ItemImageBox.Source = new BitmapImage(new Uri(item.ImageUrl, UriKind.Absolute));
+                try
+                {
+                    ItemImageBox.Source = new BitmapImage(new Uri(item.ImageUrl, UriKind.Absolute));
+                }
+                catch
+                {
+
+                }
+                
                 //var thumb = ItemImageBox;
                 //var transform = thumb.RenderTransform as RotateTransform;
                 //transform.Angle = item.ImageRotation;
@@ -387,6 +395,11 @@ namespace RackSpaceWPF
         private void AltoShaamBorder_MouseEnter(object sender, MouseEventArgs e)
         {
 
+        }
+        private void NoteTester_Click(object sender, RoutedEventArgs e)
+        {
+            NoteTester note = new NoteTester();
+            this.NavigationService.Navigate(note);
         }
     }
 }

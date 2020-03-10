@@ -53,8 +53,8 @@ namespace RackSpaceWPF
                 item.ImageRotation = transform.Angle;
                 SelectRack();
                 Globals.CreateNewItem(item);
-                Home home = new Home();
-                this.NavigationService.Navigate(home);
+                UnitsAndItems unitsAndItems = new UnitsAndItems();
+                this.NavigationService.Navigate(unitsAndItems);
             }
             catch
             {

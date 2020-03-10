@@ -38,7 +38,7 @@ namespace RackSpaceWPF.Classes
         {
             return BtnVis;
         }
-        public static string DefaultImage = "I:/R&D/Test_Lab/InventoryAppFiles/AltoShaamMid.jpg";
+        public static string DefaultImage = "C:/InventoryAppFiles/AltoShaamMid.jpg";
         public static User CurrentUser { get; set; }
         public static List<Rack> AllRacks
         {
